@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>detail</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-item >
+      <ion-label>
+        <div>{{lstfilm.title}}</div>
+        <div>{{lstfilm.year}}</div>
+        <div>{{lstfilm.runtime}} min</div>
+        <div>{{lstfilm.genres}}</div>
+        <div>{{lstfilm.director}}</div>
+        <div>{{lstfilm.actors}}</div>
+        <div>{{lstfilm.plot}}</div>
+        <img src={{lstfilm.posterUrl}}>
+      </ion-label>
+    </ion-item>
+
+  
+</ion-content>
